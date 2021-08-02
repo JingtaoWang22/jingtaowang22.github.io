@@ -35,9 +35,9 @@ This is a step-by-step tutorial for the basic single cell gene expression data a
 <br>
 ![Dim Settings](images/dim-settings.png)
 <br>
-
+You can also download the plot at any time by clicking the button at the top-right corner of the main plot.
 <br>
-![2D Embedding](images/2d.png)
+![2D Embedding](images/basic-2d.png)
 <br>
 
 **4. Clustering**
@@ -49,7 +49,7 @@ This is a step-by-step tutorial for the basic single cell gene expression data a
 <br>
 
 <br>
-![Leiden](images/leiden.png)
+![Leiden](images/basic-leiden.png)
 <br>
 
 **5. Annotations**
@@ -74,7 +74,7 @@ This is a step-by-step tutorial for the basic single cell gene expression data a
 
 **6. Differentially Expressed Genes Analysis**
 <br>
-To do DE analysis, scroll down a bit and go to the **DE Analysis** panel in the **ANALYSIS** tab under the main plot. Select two subsets that you want to find DE genes for. These subsets include the subsets the you defined in previous steps, and all the clusters. Then, after clicking <span class='mbutton'>FIND DE GENES</span>, a table will be shown to present the DE genes. For example, here we find the DE genes of the new subset that we just defined against all the rest cells.
+To do DE analysis, scroll down a bit and go to the **DE Analysis** panel in the **ANALYSIS** tab under the main plot. Select two subsets that you want to find DE genes for. These subsets include the subsets the you defined in previous steps, and all the clusters. Then, after clicking <span class='mbutton'>FIND DE GENES</span>, a table will show the DE genes with p-values below <span class='mbutton'>alpha</span>,which is also adjustable. For example, here we find the DE genes of the new subset that we just defined against all the rest cells. 
 
 <br>
 ![DE](images/basic-de.png)
@@ -82,7 +82,7 @@ To do DE analysis, scroll down a bit and go to the **DE Analysis** panel in the 
 
 **7. Feature Visualizations**
 <br>
-You can also visualize one or more genes in the **Feature Visualization** panel, which is on the right of the **DE Analysis** panel. For example, if we are interested in the first DE gene "CD74", we select this gene by either typing or finding it in the first dropdown. Then we select the type of visualization in the second dropdown, which has 3 options `PLOT EXPRESSION`, `HEATMAP`, and `VIOLIN PLOT`. For example let's first take a look at the violin plot. 
+You can also visualize one or more genes in the **Feature Visualization** panel, which is on the right of the **DE Analysis** panel. For example, if we are interested in the first DE gene "CD74", we select this gene by either typing or finding it in the first dropdown. Then we select the range to visualize (optional). Finally, we select the type of visualization in the second dropdown, which has 3 options `PLOT EXPRESSION`, `HEATMAP`, and `VIOLIN PLOT`. For example let's first take a look at the violin plot. 
 <br>
 
 ![violin](images/basic-violin.png)
@@ -91,13 +91,13 @@ You can also visualize one or more genes in the **Feature Visualization** panel,
 We can see this DE gene is indeed expressed higher in the new cluster that we just defined (Cluster 9). 
 <br>
 
-If we select `PLOT EXPRESSION`, then the color of the main plot will be changed to indicate expression value. Brighter means higher expression. In this case this DE gene is indeed expressed higher in the new subset.
+If we select `PLOT EXPRESSION`, then the color of the main plot will be changed to indicate expression value. Brighter means higher expression and vice versa. If there are gray cells, then it means their expression value are out of the range that we selected. If multiple genes are selected, then the co-expression value will be visualized. See the **ANALYSIS** section for more details. In our case we plot the first DE gene and we can see it is indeed expressed higher in the new subset.
 
 <br>
 
 ![expression](images/basic-plot-expression.png)
 <br>
-Finally, we plot a heatmap for top 3 DE genes:
+Finally, we plot a heatmap for top 3 DE genes. Again it is clear that their expression values are higher in the new subset that we ran DE analysis for.
 
 <br>
 ![exprheatmapession](images/basic-heatmap.png)

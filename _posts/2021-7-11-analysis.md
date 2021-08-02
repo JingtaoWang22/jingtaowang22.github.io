@@ -10,7 +10,7 @@ expressed genes analysis, enrichment analysis and visualizations that
 can be used to get a better understanding of the data.
 
 <br>
-![Analysis](images/analysis.png)
+![Analysis](images/ui-analysis-panels.png)
 <br>
 
 
@@ -28,13 +28,13 @@ can be used to get a better understanding of the data.
     After specifying the subsets, click <span class="mbox">FIND DE GENES</span>.
     A table will be generated for showing the DE genes and relevant information.
 <br>
-![DE](images/de.png)
+![DE](images/ui-analysis-de.png)
 <br>
 
 * **Feature Visualization**
     * Three types of feature visualization are implemented: **PLOT EXPRESSION**,
     **HEATMAP**, and **VIOLIN PLOT**. To perform the visualization, first select 
-    genes you wish to visualize in the first dropdown menu, then select the visualization 
+    genes you wish to visualize in the first dropdown menu, then select the range to visualize, finally select the visualization 
     method in the second dropdown menu **PLOTTING**. 
 
     * When multiple genes are selected for plotting the expression value, the color will be used for showing the co-expression value. If we let the expression matrix be
@@ -54,17 +54,17 @@ can be used to get a better understanding of the data.
 
     Plot Gene Expression:
     <br>
-    ![Plot Expression](images/expression.png)
+    ![Plot Expression](images/ui-analysis-plot-expression.png)
     <br>
 
     Heatmap:
     <br>
-    ![Heatmap](images/heatmap.png)
+    ![Heatmap](images/ui-analysis-heatmap.png)
     <br>
 
     Violin Plot:
     <br>
-    ![Violin Plot](images/violin.png)
+    ![Violin Plot](images/ui-analysis-violin.png)
     <br>
 
 * **Enrichment Anlysis**
@@ -75,5 +75,5 @@ can be used to get a better understanding of the data.
     will download the dataframe as a <span class="extension">csv</span> file.<br>
 
 <br>
-![Enrichment](images/enrichment.png)
+![Enrichment](images/ui-analysis-enrichment.png)
 <br>
