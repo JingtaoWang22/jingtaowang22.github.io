@@ -5,7 +5,7 @@ category: Tutorials
 layout: null
 type: null
 ---
-This is another step-by-step Cellar tutorial for joint analysis. Joint analysis allows the user to do side-by-side comparison between two datasets and generate labels for one dataset based on the other. We will use two server datasets `ucsd-snare-rna-20201005-D-preprocessed` and `ucsd-snare-atac-cbg-20201005-D-preprocessed` as example. 
+This is another step-by-step Cellar tutorial for joint analysis, a [video demo](https://www.youtube.com/watch?v=QBUXhFZrHec) is also available on YouTube. Joint analysis allows the user to do side-by-side comparison between two datasets and generate labels for one dataset based on the other. We will use two server datasets `ucsd-snare-rna-20201005-D-preprocessed` and `ucsd-snare-atac-cbg-20201005-D-preprocessed` as example. 
 
 We first run the basic analysis pipeline on the RNA dataset. The steps are: 1. Load the dataset using the **LOAD DATA** panel in the navigation bar; 2. Use the **DIMENSIONALITY REDUCTION** panel to get low dimensional embedding and 2D visualization of the dataset; 3. Use the **UNSUPERVISED** tab in the **CLUSTERING** panel to get labels for the cells. 
 

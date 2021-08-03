@@ -5,7 +5,7 @@ category: Tutorials
 layout: null
 type: null
 ---
-This is a step-by-step tutorial for analyzing CODEX data and 10x Genomics's Spatial Transcriptomics data. We will take a server dataset `CODEX_Florida_19-003-kymph-node-R2` as example. The analysis of 10X Spatial Transcriptomics follows almost exactly the same steps. We will focus on how to generate spatial tiles for the dataset. Details about other basic analysis based on gene expressions are covered in the **Tutorial: Basic Analysis Pipeline** section.
+This is a step-by-step tutorial for analyzing CODEX data and 10x Genomics's Spatial Transcriptomics data, a [video demo](https://www.youtube.com/watch?v=zG3j3DdqLUQ) is also available on YouTube. We will take a server dataset `CODEX_Florida_19-003-kymph-node-R2` as example. The analysis of 10X Spatial Transcriptomics follows almost exactly the same steps. We will focus on how to generate spatial tiles for the dataset. Details about other basic analysis based on gene expressions are covered in the **Tutorial: Basic Analysis Pipeline** section.
 
 To begin the analysis, we need to load a spatial dataset. At the top of the page, click <span class='mbutton'>LOAD DATA</span> button in the navigation bar. 
 This will expand a panel for loading datasets. Then we can select a server dataset that we are interested in from the dropdown menu. Alternatively, you can upload your own CODEX or 10X dataset and select it in the dropdown menu. See details in the **LOAD DATA** section. After selecting the dataset, click the <span class='mbutton'>LOAD</span> button on the right. 

@@ -5,7 +5,7 @@ category: Tutorials
 layout: null
 type: null
 ---
-This is a step-by-step tutorial for the basic single cell gene expression data analysis using Cellar. THe functions included in this tutorial work for all types of datasets. In this tutorial, we walk through the pipeline using default settings. However, feel free to check out detailed information about other available options of each step in the corresponding sections, so that you can experiment with different settings and see which one works the best for you. 
+This is a step-by-step tutorial for the basic single cell gene expression data analysis using Cellar, a [video demo](https://www.youtube.com/watch?v=J61itSMezFI) is also available on YouTube. THe functions included in this tutorial work for all types of datasets. In this tutorial, we walk through the pipeline using default settings. However, feel free to check out detailed information about other available options of each step in the corresponding sections, so that you can experiment with different settings and see which one works the best for you. 
 
 **1. Load Dataset**
 <br>
